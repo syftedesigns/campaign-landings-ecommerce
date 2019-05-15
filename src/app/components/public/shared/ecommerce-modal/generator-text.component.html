@@ -1,0 +1,69 @@
+<section>
+    <div class="row">
+        <div class="col-sm text-center">
+            <mat-list>
+                <h3 mat-subheader>
+                    Helper &nbsp;
+                    <mat-icon (click)="helper.show();" #helper="matTooltip" matTooltipClass="help-primary" matTooltipPosition="right" matTooltip="Select a help query to generate this automatically in the form" class="pointer">report</mat-icon>
+                </h3>
+                <mat-list>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            Hi, I need a virtual store to sell my products
+                      </span>
+                    </mat-list-item>
+                    <div class="space-10 d-md-none"></div>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            Hi, I would like to sell on Instagram
+                      </span>
+                    </mat-list-item>
+                    <div class="space-10 d-md-none"></div>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            Hi, I'm looking for a professional design for my store
+                      </span>
+                    </mat-list-item>
+                    <div class="space-10 d-md-none"></div>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            Hi, I would like to sell shirts
+                      </span>
+                    </mat-list-item>
+                    <div class="space-10 d-md-none"></div>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            Hello, I would like to have a Marketplace
+                      </span>
+                    </mat-list-item>
+                    <div class="space-10 d-md-none"></div>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            Hello, I have doubts about the service they offer
+                      </span>
+                    </mat-list-item>
+                    <div class="space-10 d-md-none"></div>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            Hi, I want to promote my store
+                      </span>
+                    </mat-list-item>
+                    <div class="space-10 d-md-none"></div>
+                    <mat-list-item>
+                        <mat-icon class="icons">send</mat-icon>&nbsp;
+                        <span (click)="getHelperString($event.path[0].innerText);">
+                            I just want to say hello
+                      </span>
+                    </mat-list-item>
+                </mat-list>
+            </mat-list>
+        </div>
+    </div>
+</section>
