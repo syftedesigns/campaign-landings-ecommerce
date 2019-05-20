@@ -202,7 +202,14 @@ Mobile
 @media only screen and (min-width: 410px) and (max-width: 480px) {
     .mobile-mg-xl {
         position: relative;
-        left: 2.5em !important;
+        left: 2em !important;
+    }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 480px) {
+    .mobile-mg-xl {
+        position: relative;
+        left: 4.5em !important;
     }
 }
 
@@ -231,6 +238,6 @@ Mobile
     .bag-tablet {
         background-color: transparent !important;
         border: 0px !important;
-        margin-top: -40%
+        margin-top: -35%
     }
 }
